@@ -1,0 +1,4 @@
+extend
+======
+
+JavaScript inheritance
