@@ -1,13 +1,13 @@
 {
   "name": "extend",
   "version": "0.1.0",
-  "description": "Basic JavaScript inheritance",
+  "description": "JavaScript inheritance",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/grunt buster"
   },
   "repository": {
     "type": "git",
@@ -22,9 +22,10 @@
     "utils": "git://github.com/wilsonpage/utils.git"
   },
   "devDependencies": {
-    "grunt-contrib-uglify": "~0.1.2",
-    "grunt": "~0.4.1",
     "buster": "~0.6.2",
+    "grunt": "~0.4.1",
+    "grunt-cli": "~0.1.8",
+    "grunt-contrib-uglify": "~0.1.2",
     "grunt-buster": "~0.1.2",
     "grunt-browserify": "~1.0.0"
   }

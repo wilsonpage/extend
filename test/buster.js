@@ -1,8 +1,8 @@
 var config = module.exports;
 
-config["fruitmachine"] = {
-    rootPath: '../',
-    environment: "browser",
+config["extend"] = {
+    env: "browser",
+    rootPath: "../",
     sources: [
         'build/extend.js'
     ],
